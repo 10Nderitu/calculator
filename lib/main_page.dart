@@ -101,11 +101,7 @@ class _MainPageState extends State<MainPage> {
                                   style: const TextStyle(
                                       color: Colors.white, fontSize: 80))),
                           const Icon(Icons.more_vert,
-                              color: Colors.blue
-
-
-
-, size: 30),
+                              color: Colors.blue, size: 30),
                           const SizedBox(width: 20),
                         ],
                       ),
@@ -122,9 +118,7 @@ class _MainPageState extends State<MainPage> {
                           ),
                           IconButton(
                             icon: const Icon(Icons.backspace_outlined,
-                                color: Colors.blue
-
-, size: 30),
+                                color: Colors.blue, size: 30),
                             onPressed: () {
                               buttonPressed("⌫");
                             },
@@ -168,13 +162,11 @@ class _MainPageState extends State<MainPage> {
                 ],
               ),
               const SizedBox(height: 10),
-              // calculator number buttons
 
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [
                   Column(
-//mainAxisAlignment: MainAxisAlignment.spaceAround
                     children: [
                       Row(
                         children: [
@@ -208,11 +200,7 @@ class _MainPageState extends State<MainPage> {
                       ),
                     ],
                   ),
-                  calcButton('=', Colors.blue.shade300
-
-
-
-, () => buttonPressed('=')),
+                  calcButton('=', Colors.blue.shade300, () => buttonPressed('=')),
                 ],
               )
             ],
