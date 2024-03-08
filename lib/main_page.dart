@@ -2,14 +2,14 @@ import 'package:calculator/buttons.dart';
 import 'package:flutter/material.dart';
 import 'package:math_expressions/math_expressions.dart';
 
-class CalculatorView extends StatefulWidget {
-  const CalculatorView({super.key});
+class MainPage  extends StatefulWidget {
+  const MainPage({super.key});
 
   @override
-  State<CalculatorView> createState() => _CalculatorViewState();
+  State<MainPage> createState() => _MainPageState();
 }
 
-class _CalculatorViewState extends State<CalculatorView> {
+class _MainPageState extends State<MainPage> {
   String equation = "0";
   String result = "0";
   String expression = "";
